@@ -1,0 +1,71 @@
+﻿@media (max-width:768px) {
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.8);
+        background: rgba(255,255,255,.8);
+    }
+    footer {
+        height: 400px;
+    }
+    .top-nav-collapse li a {
+        color: black;
+    }
+    .about-info {
+        text-align: center;
+        margin-right:0;
+    }
+    .main-cta {
+        margin: 20px auto 0 auto;
+    }
+
+    .a100logo {
+        width: 160px;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 40px;
+        width: 50%;
+        margin: auto;
+    }
+
+    img.portrait {
+        width: 150px;
+    }
+
+    section#contact {
+        padding-top: 0;
+    }
+    /*.intro {.
+        background-image:url('../img/stardust.png');
+    }*/
+    .navbar-brand {
+        display: none!important;
+    }
+
+    .top-nav-collapse .fa-bars{
+        color:black;
+    }
+}
+
+
+@media (min-width:768px) {
+
+    section#a100 {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width:1920px) {
+    #about.content-section {
+        padding: 500px 0;
+        padding-top: 100px;
+    }
+
+    #about > div {
+        margin-top: 16%;
+    }
+
+    section#a100 {
+        padding: 200px 0 300px 0;
+    }
+}
