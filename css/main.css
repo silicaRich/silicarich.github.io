@@ -700,3 +700,11 @@ p.random-quote {
 .top-nav-collapse li a, .top-nav-collapse .navbar-brand {
     color: #464646;
 }
+
+
+.flippy:hover{
+    -webkit-transform: rotateY( 180deg );
+-moz-transform: rotateY( 180deg );
+-o-transform: rotateY( 180deg );
+transform: rotateY( 180deg );
+}
