@@ -708,3 +708,7 @@ p.random-quote {
 -o-transform: rotateY( 180deg );
 transform: rotateY( 180deg );
 }
+
+.flippy{
+    position:absolute;
+}
