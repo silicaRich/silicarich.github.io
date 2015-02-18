@@ -496,7 +496,7 @@ img.portrait {
 
 .about-info {
     display: inline-block;
-    text-align: right;
+    /*text-align: right;*/
     margin-right: 22px;
 }
 
