@@ -81,7 +81,7 @@ $('.prev').on('click', function () {
 
 var data;
  $.ajax({
-            url: "http://api.jquery.com/jquery.get/",
+            url: "https://api.jquery.com/jquery.get/",
             type: "GET",
             crossDomain: true,
          data:data, 
