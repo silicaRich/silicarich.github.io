@@ -79,16 +79,19 @@ $('.prev').on('click', function () {
     showCurrent();
 });
 
-// if touch events are supported then add swipe interactions using TouchSwipe https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
-if ('ontouchstart' in window) {
-    $('.diy-slideshow').swipe({
-        swipeLeft: function () {
-            counter++;
-            showCurrent();
-        },
-        swipeRight: function () {
-            counter--;
-            showCurrent();
-        }
-    });
-}
+var data;
+ $.ajax({
+            url: "http://api.jquery.com/jquery.get/",
+            type: "GET",
+            crossDomain: true,
+         data:data, 
+            contentType: 'application/x-www-form-urlencoded',
+            success: function (response) {
+                var resp = JSON.parse(response)
+                alert(resp.status);
+            },
+            error: function (xhr, status) {
+                alert("error");
+            }
+        });
+
