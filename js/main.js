@@ -39,6 +39,7 @@ var quotes = [
     , '"Don\'t compare your beginning to someone else\'s middle."'
     , '"We are a way for the universe to know itself." -Carl Sagan'
     , '"Life would be boring if it wasn\'t difficult."'
+    ,  '"Help! I\'m trapped in JSON!"'
 ];
 
 $('p.random-quote').text(getQuote());
@@ -91,7 +92,7 @@ var data;
                 alert(resp.status);
             },
             error: function (xhr, status) {
-                alert("error");
+                console.log(xhr, status);
             }
         });
 
