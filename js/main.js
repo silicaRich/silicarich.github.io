@@ -33,13 +33,14 @@ $('.navbar-collapse ul li a').click(function () {
 var quotes = [
     '"If it ain\'t fun, don\'t do it"'
     , '"The game\'s not big enough unless it scares you a little." -William Riker'
+    , '"A smooth sea never made a skilled sailor"'
     , '"Get out of your own way.\"'
     , '"Sucking at something is the first step to being sorta good at something." -Jake the Dog'
     , '"Yeah, I pretty much never sit by the pool anymore." -Marco Polo '
     , '"Don\'t compare your beginning to someone else\'s middle."'
     , '"We are a way for the universe to know itself." -Carl Sagan'
     , '"Life would be boring if it wasn\'t difficult."'
-    ,  '"Help! I\'m trapped in JSON!"'
+    ,  '"Help! I\'m trapped in a JSON object!"'
 ];
 
 $('p.random-quote').text(getQuote());
